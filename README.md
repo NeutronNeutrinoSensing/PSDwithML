@@ -2,9 +2,11 @@
 # Improving Pulse Shape Discrimination in Organic Scintillation Detectors by Understanding Underlying Data Structure
 
 by Patrick Maedgen, Benjamin Wellons, Shikha Prasad, and Jian Tao
+
 Texas A&M University, College Station, Texas 77843-3133
 
 The paper has been submitted for publication in Nuclear Technology.
+
 This repository contains a Jupyter notebook and some sample data set to generate the results shown in the paper.
 
 
