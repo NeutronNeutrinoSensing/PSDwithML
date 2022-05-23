@@ -40,6 +40,14 @@ You can download a copy of all the files in this repository with:
 
 or [download a zip archive](https://github.com/NeutronNeutrinoSensing/PSDwithML/archive/refs/heads/main.zip).
 
+## Getting the data
+
+Included in this repository is a sample dataset containing two csv files -- one containging neutron pulses, the other containing gamma pulses.
+This data was processed and reformatted after being collected by CoMPASS. A time-of-flight cut has been applied prior, meaning there should be minimal overlap of neutrons and gammas.
+
+Each file containins 500 columns: 496 samples for the given pulse with a resolution of 2 ns, the event index, pulse height, tail-to-total ratio, and a class label.
+Neutrons are labelled as 1, gammas are labeled as 0. Each row represents an individual datapoint.
+
 ## License
 
 All source code is made available under a [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause). You can freely
